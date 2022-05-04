@@ -7,7 +7,7 @@ class Product {
 
     constructor({id, title, price, thumbnail}){
         if(typeof id !== 'number'){
-            throw new Error('id its not an number')
+            throw new Error('ID is not a number')
         }
 
         this._id = id
@@ -62,7 +62,7 @@ class Product {
 
     set price(price){
         if(typeof price !== 'number'){
-            throw new Error('The price not its a number')
+            throw new Error('The price is not a number')
         }
         this._price = price
     }

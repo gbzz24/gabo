@@ -65,7 +65,7 @@ class ProductsService {
         if (prd) {
             return prd
         }
-        throw new Error('Product dosnt exists')
+        throw new Error('Product dont Exist')
     }
 
     // add a product
@@ -88,7 +88,7 @@ class ProductsService {
             mockData = data
             return prd
         }
-        throw new Error('Product dosnt exists')
+        throw new Error('Product dont Exist')
     }
 
     // Delete an product
@@ -98,7 +98,7 @@ class ProductsService {
             mockData = data
             return true
         } else {
-            throw new Error('Product dosnt exists')
+            throw new Error('Product dont Exist')
         }
     }
 
